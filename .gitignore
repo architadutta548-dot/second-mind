@@ -1,0 +1,40 @@
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+
+# Database files
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+
+# VS Code
+.vscode/
+
+# Node dependencies
+node_modules/
+dist/
+build/
+
+# Logs
+*.log
+
+# Backups
+*.bak
+*.backup
+*_backup.sql
+# Private keys and certificates
+*.pem
+*.key
+*.p12
+*.pfx
